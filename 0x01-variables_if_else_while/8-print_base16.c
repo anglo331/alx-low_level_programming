@@ -8,12 +8,18 @@
 int main(void)
 {
 	int i;
-	char x[] = "0123456789abcdef";
 
-	for (i = 0; i <= 16; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(x[i]);
+		putchar(i + '0');
 	}
+
+	for (i = 0; i <= 5; i++)
+	{
+		putchar(i + 'a');
+	}
+
+	putchar('\n');
 
 	return (0);
 }
