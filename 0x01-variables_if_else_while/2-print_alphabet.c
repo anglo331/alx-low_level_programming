@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - it is the main entry point
+ * main - it is the main entry point
  *
  * Return: 0 always on success
  */
@@ -14,5 +14,6 @@ int main(void)
 	{
 		putchar(x);
 	}
+	putchar('\n');
 	return (0);
 }
