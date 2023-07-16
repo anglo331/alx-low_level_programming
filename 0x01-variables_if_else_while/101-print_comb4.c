@@ -18,13 +18,16 @@ int main(void)
 			z = y + 1;
 			while (z <= 9)
 			{
-				putchar(x + '0');
-				putchar(y + '0');
-				putchar(z + '0');
-				if (x < 7 || y < 8 || z < 9)
+				if (x != y && y != z && x != z)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(x + '0');
+					putchar(y + '0');
+					putchar(z + '0');
+					if (x < 7 || y < 8 || z < 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 				z++;
 			}
