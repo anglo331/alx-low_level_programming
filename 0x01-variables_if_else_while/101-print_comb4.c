@@ -15,7 +15,7 @@ int main(void)
 		y = x + 1;
 		while (y <= 8)
 		{
-			z = x + 2;
+			z = y + 1;
 			while (z <= 9)
 			{
 				putchar(x + '0');
