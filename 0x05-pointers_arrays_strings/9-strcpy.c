@@ -12,10 +12,11 @@ char *_strcpy(char *dist, char *str)
 {
 	int i = 0;
 
-	while (str[i])
+	for (; str[i] != '\0'; i++)
 	{
 		dist[i] = str[i];
-		i++;
 	}
+
+	dist[i] = '\0';
 	return (dist);
 }
