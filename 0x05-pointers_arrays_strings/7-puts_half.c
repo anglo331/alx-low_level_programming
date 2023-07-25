@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * puts_half - to print the seconde half of given string
  * @str: input string
@@ -15,6 +15,8 @@ void puts_half(char *str)
 		len++;
 	}
 
+	printf("%i\n", len);
+
 	if (len % 2 != 0)
 	{
 		len -= 1;
@@ -27,5 +29,4 @@ void puts_half(char *str)
 			_putchar(str[i]);
 		}
 	}
-	_putchar('\n');
 }
