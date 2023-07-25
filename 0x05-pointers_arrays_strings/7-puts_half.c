@@ -15,7 +15,7 @@ void puts_half(char *str)
 		len++;
 	}
 
-	// printf("%i\n", len);
+	/* printf("%i\n", len);*/
 
 	if (len % 2 != 0)
 	{
