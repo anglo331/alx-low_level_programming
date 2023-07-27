@@ -5,7 +5,7 @@
  * @str: to copy string
  * @dest: the destination to past the string
  * @n: number of byets
- * Retrun: the final string
+ * Return: the final string
  */
 
 char *_strncat(char *dest, char *str, int n)
