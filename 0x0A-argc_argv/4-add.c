@@ -17,15 +17,15 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		char y = argv[i];
+		char *y = argv[i];
 
-		if (y <= 'z' && y >= 'a')
+		if (*y <= 'z' && *y >= 'a')
 		{
 			printf("Error\n");
 			return (1);
 		}
 
-		sum += *atoi(y);
+		sum += atoi(y);
 	}
 	printf("%d\n", sum);
 	return 0;
