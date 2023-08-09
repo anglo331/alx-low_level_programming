@@ -19,6 +19,5 @@ int main(int argc, char *argv[])
 		_putchar(letter);
 	}
 
-	_putchar('\n');
 	return (0);
 }
