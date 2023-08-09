@@ -8,15 +8,16 @@
  * Return: 0 on succses
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
-	int i;
-	char letter;
+	int i, x;
 
-	for (i = 0; letter != '\0'; i++)
+	for (i = 0; i <= (argc - 1); i++)
 	{
-		letter = argv[argc - 1][i];
-		_putchar(letter);
+		for (x = 0; argv[i][x]; x++)
+		{
+			_putchar(argv[i][x]);
+		}
 	}
 
 	return (0);
