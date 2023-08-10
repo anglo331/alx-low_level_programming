@@ -31,5 +31,5 @@ int main(int argc, char *argv[])
 		printf("%d", 0);
 	else
 		printf("%d\n", sum);
-	return 0;
+	return (0);
 }
