@@ -45,3 +45,5 @@ char rev(char *s)
  * @src: source char
  * Return: the new chenges
  */
+
+char _strcat
